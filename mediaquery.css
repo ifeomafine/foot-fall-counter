@@ -1,0 +1,31 @@
+
+@media screen and (max-width:768px) {
+    .box  { 
+  color: crimson;
+  margin: 5rem;
+  margin-left: 1rem;
+  margin-top: -5rem;
+  padding: 4.5%;
+  width: 50%;
+  height: 50%;
+  text-align: center;
+}
+.box{
+    position: absolute;
+    top: 45%;
+    left: 70%;
+    font-size: 40px;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+  } 
+  .img {
+      padding-left: 20%;
+  }
+  #increment-btn {
+      border-radius: 12px;
+      width: 30%;
+      height: 15%;
+      background-color: aqua;
+      font-weight: 700;
+  }
+}

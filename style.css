@@ -1,0 +1,36 @@
+
+.box  { 
+  color: crimson;
+  margin: 5rem;
+  margin-left: 1rem;
+  margin-top: -5rem;
+  padding: 2%;
+  width: 50%;
+  height: 50%;
+  text-align: center;
+}
+.box{
+    position: absolute;
+    top: 70%;
+    left: 48%;
+    font-size: 40px;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+  } 
+  .img {
+      padding-left: 20%;
+  }
+  #increment-btn {
+      border-radius: 50%;
+      width: 30%;
+      height: 20%;
+      background-color: aqua;
+      font-weight: 700;
+  }
+  P {
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: underline;
+    text-align: center;
+    color: rgb(2, 14, 36);
+  }
