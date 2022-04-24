@@ -1,4 +1,6 @@
-
+*{
+  box-sizing: border-box;
+}
 .box  { 
   color: crimson;
   margin: 5rem;
