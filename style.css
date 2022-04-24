@@ -20,12 +20,23 @@
   .img {
       padding-left: 20%;
   }
-  #increment-btn {
-      border-radius: 50%;
+  #increment-btn , #save-btn {
+      border-radius: 12px;
       width: 30%;
       height: 20%;
-      background-color: aqua;
+      background-color: midnightblue;
       font-weight: 700;
+      color: white;
+  }
+  #increment-btn {
+    margin-bottom: 15px;
+    background-color: aqua;
+    color: black;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40%;
   }
   P {
     font-size: 12px;
@@ -33,4 +44,7 @@
     text-decoration: underline;
     text-align: center;
     color: rgb(2, 14, 36);
+  }
+  #save-el {
+    font-size: 20px;
   }

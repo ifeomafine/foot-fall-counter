@@ -9,3 +9,12 @@ function increment() {
   count = count + 1
   counter.innerText = count
 }
+
+let saveEL = document.getElementById("save-el")
+
+function save() {
+  let Abi = count + ' - '
+saveEL.innerText += " " + Abi
+counter.innerText = 0
+count = 0
+}
