@@ -5,16 +5,19 @@
 }
 .box{
     position: absolute;
-    top: 70%;
+    top: 50%;
     left: 48%;
     font-size: 30px;
     transform: translate(-50%,-50%);
     text-align: center;
     line-height: 5rem;
-    color: crimson;
+    color: rgb(31, 24, 25);
+    box-shadow: 0px 2px 2px 5px ;
+    width: 600px;
+    background-image: url(human.jpg);
   } 
-  .box h1 {
-    margin-left: 5rem;
+  .box h1 , #counter {
+    margin-left: 1rem;
   }
   .img {
       top: 15%;
@@ -23,7 +26,7 @@
   }
   #increment-btn , #save-btn {
       border-radius: 12px;
-      margin-left: -40%;
+      margin: 0 10% 0-60%;
       padding: 1rem;
       background-color: midnightblue;
       font-weight: 700;
@@ -48,21 +51,22 @@
   }
   #save-el {
     font-size: 20px;
-  }
-  #counter {
-    margin-left: 5rem;
+    color: rgb(207, 9, 141);
+    background-color: white;
   }
   .credit {
-    margin: 1rem;
+    margin: .5rem;
   }
-  @media screen and (max-width:425px) {
-    .img{
-      margin: -7rem -12rem;
-    }
+  @media screen and (max-width:768px) { 
     .box {
-      margin: -12rem 5rem;
+      width: 65%;
+      margin: -.5rem;
+      overflow: hidden;
     }
     .box h1 , #counter {
-      margin-left: 3rem;
+      width: 50%;
+      padding: .2rem;
+      font-size: 150%;
+      margin-left: 22%;
     }
   }
