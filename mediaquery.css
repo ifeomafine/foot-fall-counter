@@ -1,4 +1,4 @@
-
+/*  
 @media screen and (max-width:480px) {
   .box  { 
 color: crimson;
@@ -45,7 +45,7 @@ text-align: center;
   margin-top: 80%;
   margin-left: 70%;
   /* padding-top: 40%; */
-  width: 50%;
+  /* width: 50%; 
   height: 50%;
   text-align: center;
 }
@@ -54,8 +54,6 @@ text-align: center;
     top: 0;
     left: 0%;
     font-size: 15px;
-    /* transform: translate(-50%,-50%); */
-    /* -ms-transform: translate(-50%,-50%); */
   } 
   .img {
       padding-left: 10%;

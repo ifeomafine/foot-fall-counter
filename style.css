@@ -1,15 +1,7 @@
 *{
   box-sizing: border-box;
-}
-.box  { 
-  color: crimson;
-  margin: 5rem;
-  margin-left: 1rem;
-  margin-top: -5rem;
-  padding: 2%;
-  width: 50%;
-  height: 50%;
-  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 .box{
     position: absolute;
@@ -17,15 +9,22 @@
     left: 48%;
     font-size: 30px;
     transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
+    text-align: center;
+    line-height: 5rem;
+    color: crimson;
   } 
+  .box h1 {
+    margin-left: 5rem;
+  }
   .img {
-      padding-left: 20%;
+      top: 15%;
+      left: 25%;
+      position: absolute;
   }
   #increment-btn , #save-btn {
       border-radius: 12px;
-      width: 30%;
-      height: 20%;
+      margin-left: -40%;
+      padding: 1rem;
       background-color: midnightblue;
       font-weight: 700;
       color: white;
@@ -49,4 +48,21 @@
   }
   #save-el {
     font-size: 20px;
+  }
+  #counter {
+    margin-left: 5rem;
+  }
+  .credit {
+    margin: 1rem;
+  }
+  @media screen and (max-width:425px) {
+    .img{
+      margin: -7rem -12rem;
+    }
+    .box {
+      margin: -12rem 5rem;
+    }
+    .box h1 , #counter {
+      margin-left: 3rem;
+    }
   }
