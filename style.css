@@ -60,14 +60,28 @@
   @media screen and (max-width:768px) { 
     .box {
       width: 65%;
-      margin: -.5rem;
       overflow: hidden;
       background-position: right 400px center;
     }
-    .box h1 , #counter {
+    .box h1 {
+      font-size: 3rem;
+      margin: 1rem auto;
+      line-height: 4rem;
+    }
+    #counter {
       width: 50%;
       padding: .2rem;
-      font-size: 150%;
       margin-left: 22%;
     }
+    #save-btn , #increment-btn {
+      border-radius: 12px;
+      background-color: midnightblue;
+      font-weight: 700;
+      color: white;
+  }
+  #increment-btn {
+    margin-bottom: 15px;
+    background-color: aqua;
+    color: black;
+  }
   }
