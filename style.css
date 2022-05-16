@@ -62,6 +62,7 @@
       width: 65%;
       margin: -.5rem;
       overflow: hidden;
+      background-position: right 400px center;
     }
     .box h1 , #counter {
       width: 50%;
